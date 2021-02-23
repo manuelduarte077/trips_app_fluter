@@ -4,14 +4,16 @@ import 'description_place.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-  String details = "Lorem ipsum dolor sit amet consectetur adipiscing elit auctor, sapien leo praesent etiam iaculis metus ut, consequat lacinia taciti ultrices at tellus integer. Nulla ad conubia donec senectus netus ultrices semper, \n\n etus malesuada ridiculus mollis varius himenaeos tellus, potenti habitasse natoque phasellus integer tristique etus malesuada ridiculus mollis varius himenaeos tellus, potenti habitasse natoque phasellus integer tristique.";
+  String details =
+      "Lorem ipsum dolor sit amet consectetur adipiscing elit auctor, sapien leo praesent etiam iaculis metus ut, consequat lacinia taciti ultrices at tellus integer. Nulla ad conubia donec senectus netus ultrices semper, \n\n etus malesuada ridiculus mollis varius himenaeos tellus, potenti habitasse natoque phasellus integer tristique etus malesuada ridiculus mollis varius himenaeos tellus, potenti habitasse natoque phasellus integer tristique.";
 
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Flutter Demo',
-        theme: ThemeData(
+      debugShowCheckedModeBanner: false,
+
+      theme: ThemeData(
           // This is the theme of your application.
           //
           // Try running your application with "flutter run". You'll see the
@@ -21,15 +23,15 @@ class MyApp extends StatelessWidget {
           // or simply save your changes to "hot reload" in a Flutter IDE).
           // Notice that the counter didn't reset back to zero; the application
           // is not restarted.
-          primarySwatch: Colors.red,
+          primarySwatch: Colors.green,
         ),
         home: Scaffold(
           appBar: AppBar(
             title: Text("Travel through Nicaragua"),
           ),
           body: new DescriptionPlace('Granada', 4, details),
-        )//MyHomePage(title: 'Flutter Demo Home Page'),
-    );
+        ) //MyHomePage(title: 'Flutter Demo Home Page'),
+        );
   }
 }
 
