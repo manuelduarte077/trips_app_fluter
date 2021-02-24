@@ -21,7 +21,7 @@ class CardImage extends StatelessWidget {
           borderRadius: BorderRadius.all(Radius.circular(10.0)),
           shape: BoxShape.rectangle,
           boxShadow: <BoxShadow>[
-            BoxShadow(color: Colors.black38, offset: Offset(0.0, 7.0))
+            BoxShadow(color: Colors.black26, offset: Offset(0.0, 7.0))
           ]),
     );
 
