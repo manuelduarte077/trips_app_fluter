@@ -20,9 +20,6 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.green,
         ),
         home: Scaffold(
-          appBar: AppBar(
-            title: Text("Travel through Nicaragua"),
-          ),
           // body: new DescriptionPlace('Granada', 4, details),
           body: Stack(
             children: [
@@ -32,7 +29,7 @@ class MyApp extends StatelessWidget {
                   ReviewList()
                 ],
               ),
-              GradientBack()
+              GradientBack("Popular")
             ],
           ),
         ) //MyHomePage(title: 'Flutter Demo Home Page'),
