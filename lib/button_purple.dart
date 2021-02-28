@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class Button extends StatefulWidget {
+class ButtonPurple extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
