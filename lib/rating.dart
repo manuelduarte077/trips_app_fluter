@@ -42,7 +42,6 @@ class Rating extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
     return getRating(stars);
   }
 }

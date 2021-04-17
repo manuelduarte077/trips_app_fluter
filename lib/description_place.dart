@@ -8,16 +8,13 @@ class DescriptionPlace extends StatelessWidget {
 
   DescriptionPlace(this.namePlace, this.stars, this.descriptionPlace);
 
-  String details = "Lorem ipsum dolor sit amet consectetur adipiscing elit auctor, sapien leo praesent etiam iaculis metus ut, consequat lacinia taciti ultrices at tellus integer. Nulla ad conubia donec senectus netus ultrices semper, \n\n etus malesuada ridiculus mollis varius himenaeos tellus, potenti habitasse natoque phasellus integer tristique etus malesuada ridiculus mollis varius himenaeos tellus, potenti habitasse natoque phasellus integer tristique.";
+  String details =
+      "Lorem ipsum dolor sit amet consectetur adipiscing elit auctor, sapien leo praesent etiam iaculis metus ut, consequat lacinia taciti ultrices at tellus integer. Nulla ad conubia donec senectus netus ultrices semper, \n\n etus malesuada ridiculus mollis varius himenaeos tellus, potenti habitasse natoque phasellus integer tristique etus malesuada ridiculus mollis varius himenaeos tellus, potenti habitasse natoque phasellus integer tristique.";
 
   @override
   Widget build(BuildContext context) {
-
     final star_border = Container(
-      margin: EdgeInsets.only(
-          top:323.0,
-          right: 3.0
-      ),
+      margin: EdgeInsets.only(top: 323.0, right: 3.0),
       child: Icon(
         Icons.star_border,
         color: Color(0xFFF2C716),
@@ -60,11 +57,8 @@ class DescriptionPlace extends StatelessWidget {
     final description = Container(
       margin: EdgeInsets.only(top: 20.0, left: 20.0, right: 20.0),
       child: new Text(
-         descriptionPlace,
-        style: TextStyle(
-            fontSize: 16.0,
-          color: Color(0xFF56575a)
-        ),
+        descriptionPlace,
+        style: TextStyle(fontSize: 16.0, color: Color(0xFF56575a)),
       ),
     );
 

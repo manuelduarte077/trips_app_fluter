@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:tripss_app/review.dart';
-import 'description_place.dart';
-import 'review_list.dart';
-import 'header_appbar.dart';
 
-import 'gradient_back.dart';
+import 'description_place.dart';
+import 'header_appbar.dart';
+import 'review_list.dart';
 
 void main() => runApp(MyApp());
 

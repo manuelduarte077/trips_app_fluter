@@ -25,7 +25,6 @@ class CardImage extends StatelessWidget {
           ]),
     );
 
-
     return card;
   }
 }

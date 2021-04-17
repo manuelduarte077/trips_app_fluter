@@ -1,9 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
 import 'card_image.dart';
 
 class CardImageList extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
@@ -23,9 +23,5 @@ class CardImageList extends StatelessWidget {
         ],
       ),
     );
-
-
   }
-
-
 }
